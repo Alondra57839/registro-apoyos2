@@ -139,10 +139,13 @@ def logout():
 def crear_base_datos():
     #Crear la base de datos si no existe
     servidor = mysql.connector.connect(
-        host=MYSQL_CONFIG["host"],
-        user=MYSQL_CONFIG["user"],
-        password=MYSQL_CONFIG["password"],
-    )
+    host="://aivencloud.com",
+    port=19417,
+    user="avnadmin",
+    password="AVNS_mSRex8W5vrn7YNfNhHl",  # Lee el paso de abajo para ver tu contraseña
+    database="defaultdb"
+)
+
     cursor = servidor.cursor()
     cursor.execute(
         f"CREATE DATABASE IF NOT EXISTS `{MYSQL_CONFIG['database']}` "
