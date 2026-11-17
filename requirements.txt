@@ -28,6 +28,7 @@ googleapis-common-protos==1.76.0
 greenlet==3.5.5
 grpcio==1.85.0
 grpcio-status==1.85.0
+gunicorn==27.0.1
 h11==0.16.0
 httpcore2==2.16.0
 httptools==0.8.0
