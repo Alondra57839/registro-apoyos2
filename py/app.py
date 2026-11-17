@@ -144,7 +144,7 @@ def crear_base_datos():
     user="avnadmin",
     password="AVNS_mSRex8W5vrn7YNfNhHl",  # Lee el paso de abajo para ver tu contraseña
     database="defaultdb"
-)
+    )
 
     cursor = servidor.cursor()
     cursor.execute(
