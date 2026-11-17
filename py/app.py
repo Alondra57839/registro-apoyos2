@@ -58,11 +58,13 @@ def proteger_paginas():
             return redirect(url_for("login"))
 
 MYSQL_CONFIG = {
-    "host": os.environ.get("MYSQL_HOST", "localhost"),
-    "user": os.environ.get("MYSQL_USER", "root"),
-    "password": os.environ.get("MYSQL_PASSWORD", "root12"),
-    "database": os.environ.get("MYSQL_DATABASE", "apoyos"),
+    "host": "mysql-148687db-upgto-13d1.e.aivencloud.com",
+    "port": 19417,
+    "user": "avnadmin",
+    "password": "AVNS_mSRex8W5vrn7YNfNhHl",
+    "database": "defaultdb"
 }
+
 
 
 class Conexion:
