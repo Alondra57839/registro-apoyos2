@@ -139,7 +139,8 @@ def logout():
 def crear_base_datos():
     #Crear la base de datos si no existe
     servidor = mysql.connector.connect(
-    host="://aivencloud.com",
+    # Así debe quedar exactamente tu línea de host en el código:
+    host="mysql-148687db-upgto-13d1.e.aivencloud.com",
     port=19417,
     user="avnadmin",
     password="AVNS_mSRex8W5vrn7YNfNhHl",  # Lee el paso de abajo para ver tu contraseña
